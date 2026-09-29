@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free AI Tier Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>⚡ Free AI Tier Tracker</h1>
+      <p class="tagline">Every free AI credit you have. Every expiry date. One dashboard.</p>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search tools…" aria-label="Search tools" />
+        <select id="filter" aria-label="Filter by status">
+          <option value="all">All statuses</option>
+          <option value="expiring-soon">Expiring soon</option>
+          <option value="active">Active</option>
+          <option value="expired">Expired</option>
+          <option value="no-expiry">No expiry</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="stats" class="stats"></section>
+    <section id="grid" class="grid"></section>
+    <p class="disclaimer">Sample data for demonstration — always verify a provider's current terms before relying on them.</p>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

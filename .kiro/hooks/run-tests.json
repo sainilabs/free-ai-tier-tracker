@@ -1,0 +1,1 @@
+{"command":"npm test","event":"PostFileSave","filePattern":"src/**/*","name":"run-tests-on-source-save"}

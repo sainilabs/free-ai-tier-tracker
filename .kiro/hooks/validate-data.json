@@ -1,0 +1,1 @@
+{"command":"npm run validate:data","event":"PostFileSave","filePattern":"data/**/*","name":"validate-data-on-save"}
